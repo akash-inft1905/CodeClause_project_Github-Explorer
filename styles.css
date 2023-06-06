@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    /* background-color: #f0f0f0; */
+    font-family: Arial, sans-serif;
+    height: 748px;
+    background: linear-gradient(355deg, #78bd05, #1d36cd);
+  }
+  
+  /* Style the header */
+  header {
+  background-color: #333cb8;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    color: aqua;}
+  
+  /* Style the main section */
+  main {
+    max-width: 600px;
+    height: 250px;
+    margin: 213px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 26px;
+    background: linear-gradient(340deg, #972626, #10988f);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #buttonbutton{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 31px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    background:#a3e4e4 ;
+  }
+  
+  #user-repos{
+    font-size: larger;
+    font-weight: 600;
+  }
+  #user-followers{
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+  #username-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #a3e4e4;
+    border: 2px solid black;}
+  
+  #search-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #d38484;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid black;
+    color: black;
+  }
+  
+  #user-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  #user-avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #a3e4e4;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    border: 2px solid black;
+  }
+  
+  #user-info {
+    flex-grow: 1;
+  }
+  
+  #user-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
